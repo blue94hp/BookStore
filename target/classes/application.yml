@@ -1,0 +1,12 @@
+spring:
+  data:
+    mongodb:
+      database: bookstore
+      port: 27017
+      host: localhost
+  redis:
+    host: localhost
+    port: 6379
+multipart:
+  max-file-size: 3Mb
+  max-request-size: 20Mb
